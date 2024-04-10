@@ -1,6 +1,7 @@
 # Cryptocurrency Clustering with K-Means
 
 This project aims to cluster cryptocurrencies based on their price change percentages using K-Means clustering algorithm and Principal Component Analysis (PCA) for dimensionality reduction.
+![image](https://github.com/thesarahcain/CryptoClustering/assets/148586543/2e003317-502a-446e-b707-aef5852c943a)
 
 ## Prepare the Data
 - Normalize the data using `StandardScaler()` from scikit-learn.
