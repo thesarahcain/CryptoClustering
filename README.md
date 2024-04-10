@@ -11,17 +11,19 @@ This project aims to cluster cryptocurrencies based on their price change percen
 ## Find the Best Value for k Using the Original Scaled DataFrame
 - Utilize the elbow method to determine the optimal number of clusters (k).
 - Plot the inertia values for different k values to identify the best value.
-- Answer the question: What is the best value for k?
+![image](https://github.com/thesarahcain/CryptoClustering/assets/148586543/bfdf7507-456c-4288-971a-66f7d2efab67)
 
 ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 - Initialize and fit the K-means model with the best value for k.
 - Predict the clusters and add a new column with the predicted clusters to the original data.
 - Visualize the clusters using a scatter plot.
+![image](https://github.com/thesarahcain/CryptoClustering/assets/148586543/72409164-cccf-47d4-ad6c-6dba29bb1a02)
 
 ## Optimize Clusters with Principal Component Analysis
 - Perform PCA on the original scaled DataFrame to reduce features to three principal components.
 - Calculate the explained variance and answer the question: What is the total explained variance of the three principal components?
 - Create a new DataFrame with PCA data.
+![image](https://github.com/thesarahcain/CryptoClustering/assets/148586543/d86155cb-43ad-4b6a-aa6a-9b5ef86b84b1)
 
 ## Find the Best Value for k Using the PCA Data
 - Use the elbow method on the PCA data to find the optimal k.
@@ -30,8 +32,9 @@ This project aims to cluster cryptocurrencies based on their price change percen
 ## Cluster Cryptocurrencies with K-means Using the PCA Data
 - Initialize and fit the K-means model with the best value for k using PCA data.
 - Predict the clusters and visualize them using a scatter plot.
-
-## Impact of Using Fewer Features
-- Answer the question: What is the impact of using fewer features to cluster the data using K-Means?
+![image](https://github.com/thesarahcain/CryptoClustering/assets/148586543/dc55cc18-870e-4c10-8f67-9455e64b5bd6)
 
 ## Resources
+I references the following resources to help with my code, along with help from ChatGPT: 
+https://www.digitalocean.com/community/tutorials/normalize-data-in-python
+https://stackoverflow.com/questions/19197715/scikit-learn-k-means-elbow-criterion
